@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodSell</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+<style>
+    *,
+    body {
+
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        height: 2000px;
+
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header__contact {
+        font-weight: 900;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .header__auth a {
+
+        font-size: 20px;
+        padding: 10px 20px;
+        color: rgb(3, 3, 3);
+        font-weight: 500;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+
+    .header__auth a:hover {
+        background-color: rgb(119, 243, 94);
+    }
+
+    #icon2 {
+        padding: 10px 20px;
+    }
+
+    .search-bar {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .search-bar img {
+        width: 134px;
+        border-radius: 90px;
+        background-color: transparent;
+        height: 122px;
+    }
+
+    /* trang chủ */
+    .search-bar a {
+        margin-left: 70px;
+        margin-top: 20px;
+        margin-right: 5%;
+        color: rgb(16, 173, 16);
+        font-size: 30px;
+        text-decoration: none;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* tota; */
+    .search h2 {
+        margin-left: 30px;
+        display: inline-block;
+
+
+    }
+
+    /* search */
+    .search {
+        display: inline-block;
+
+    }
+
+    /* search */
+    .search-place {
+        width: 480px;
+        height: 54px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .btn-search {
+        color: #fff;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #ffc107;
+        border: none;
+        width: 280px;
+        height: 54px;
+    }
+
+    .btn-search:hover {
+        cursor: pointer;
+        background-color: rgb(241, 234, 234);
+    }
+
+    /* content */
+    .box1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        margin: 5%;
+        border-radius: 30px;
+        width: 1446px;
+        height: 587px;
+
+    }
+
+    #bell:hover {
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="header__contact">
+                <i class="fas fa-envelope"></i>
+                <span>nhatminhjackson1234@gmail.com</span>
+            </div>
+            <div class="header__auth">
+                <i class="fas fa-sign-in-alt"></i>
+                <a href="./register.html" target="_blank" id="btn-register">Register</a>
+                <i class="fad fa-apple-crate" id="icon2"></i>
+                <a href="#">Sign in</a>
+            </div>
+        </div>
+        <div class="search-bar">
+
+            <a href="#"> <i class="fas fa-bells" id="bell"></i> HOME PAGE</a>
+            <div class="search">
+
+
+                <input type="text" class="search-place" placeholder=" Find your things here!"
+                    style="border: 1px solid #ffc107" />
+
+                <button type="" class="btn-search">Search</button>
+
+
+                <h2> <i class="fas fa-ballot-check" id="icon3"></i> Total:</h2>
+
+            </div>
+
+        </div>
+
+        <div class="content">
+            <div class="box1" id="page-content">
+                <img src="https://www.supermarketnews.com/sites/supermarketnews.com/files/styles/article_featured_retina/public/gallery_promo_image/produce1156.jpg?itok=q3kqZzbU"
+                    alt="">
+            </div>
+            <div class="box2">
+
+            </div>
+        </div>
+        <div class="page"></div>
+        <div class="footer"></div>
+
+
+    </div>
+    <script>
+
+    </script>
+</body>
+
+</html>
